@@ -1,0 +1,192 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Passion+One');
+@import url('https://fonts.googleapis.com/css?family=Kalam:300,400,700');
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Kalam', cursive;
+*/
+
+body {
+	background-color: whitesmoke;
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2 {
+	font-family: 'Passion One', cursive;
+}
+h2, h5 {	
+	text-align: center;
+	margin: 20px 0;
+}
+h2 {
+	font-size: 40px;
+}
+h5 {
+	font-weight: light;
+}
+.logo {
+	font-family: 'Kalam', cursive;
+}
+.container-fluid {
+	padding: 0;
+}
+
+/* link & hover */
+a {
+	color: black;
+}
+a:hover, #nav-hover:hover, fa:hover {
+	color: crimson;
+}
+a:hover, a:active, a:visited, a:focus {
+	text-decoration: none;
+}
+
+/* navigation */
+nav li {
+	padding-left: 20px;
+}
+
+/* home */
+.home h1 {
+	font-size: 65px;
+}
+.home p {
+	font-size: 22px;
+	margin-top: 15px;
+}
+.home {	
+	text-align: center;
+	padding: 40px 0;
+}
+.home, .home .fa {
+	color: white;
+}
+.img-center, .home i {
+	margin: 40px 0 50px 0;
+}
+
+/* port contact */
+#portfolio, #contact {
+	padding-top: 50px;
+}
+#contact {
+	margin-bottom: 70px;
+}
+.port, .contact {
+	margin: 80px 30px;
+}
+.contact p {
+	margin-top: 15px;
+}
+.contact {
+	text-align: center;
+	margin-bottom: 120px;	
+}
+
+/* footer */
+footer {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	background: #262626;
+	padding-top: 15px;
+}
+
+/* portfolio box */
+div.web {
+	height: 345px;
+	padding: 0;
+}
+div.game, div.mod {
+	height: 300px;
+	padding: 0;
+}
+div.web, div.mod, div.game {	
+	background-size: cover;
+	background-position: top center;
+	border: 1px solid gray;
+	margin: 15px 10px;
+}
+
+/* portfolio description */
+.port p {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	padding-top: 120px;
+}
+.port hr {
+	border-top: 2px solid white;
+	max-width: 220px;
+}
+.port small {
+	color: white;
+	font-size: 16px;
+	display: block;
+	text-align: center;
+}
+div.trans {
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.65);
+	padding: 0 10px;
+	opacity: 0;
+	transition: .5s;
+}
+div.trans:hover {
+	opacity: 1;
+}
+
+/* portfolio background images */
+.web-first {
+	background: url(images/web/portfolio.jpg);
+}
+.web-second {
+	background: url(images/web/yourshoes.jpg);
+}
+.web-third {
+	background: gray;
+}
+.game-first {
+	background: url(images/game/crazydocrun.jpg);
+}
+.game-second {
+	background: url(images/game/lastquiz.jpg);
+}
+.game-third {
+	background: url(images/game/zoo.jpg);
+}
+.mod-first {
+	background: url(images/model/room.jpg);
+}
+.mod-second {
+	background: url(images/model/town_day.jpg);
+}
+.mod-third {
+	background: url(images/model/starhouse.jpg);
+}
+
+/* parallax background */
+.parallax {
+	background: url(images/home-bg.jpg);
+	height: 100%;
+	/* create the parallaz scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* when different screen size */
+@media (max-width: 500px) {
+	.home h1 {
+		font-size: 40px;
+	}
+	.home p {
+		font-size: 18px;
+	}
+	.home img {
+		width: 230px;
+	}
+}
