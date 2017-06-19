@@ -158,13 +158,22 @@ div.trans:hover {
 	background: url(images/game/zoo.jpg);
 }
 .mod-first {
-	background: url(images/model/room.jpg);
+	background: url(images/model/tableset.jpg);
 }
 .mod-second {
-	background: url(images/model/town_day.jpg);
+	background: url(images/model/room.jpg);
 }
 .mod-third {
 	background: url(images/model/starhouse.jpg);
+}
+.mod-fourth {
+	background: url(images/model/jd.jpg);
+}
+.mod-fifth {
+	background: url(images/model/town_day.jpg);
+}
+.mod-sixth {
+	background: url(images/model/deliveryman.jpg);
 }
 
 /* parallax background */

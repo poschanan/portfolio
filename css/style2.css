@@ -23,7 +23,7 @@ header, .content h1 {
 h1 {
 	padding: 10px 0 50px 0;
 }
-h3, li {
+h2, h3, li {
 	text-align: left;
 }
 footer div {
@@ -52,6 +52,10 @@ header a {
 nav li {
 	padding-left: 20px;
 }
+a.btn {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
 
 /* head symbol */
 .big-icon {
@@ -66,11 +70,26 @@ nav li {
 }
 .content p, .content li {
 	font-size: 20px;
-	text-align: justify;	
+	text-align: left;
 }
 .with-content {
 	padding: 50px 0 20px 0;
 	text-align: left;
+}
+.padding-top {
+	padding-top: 55px;
+}
+.page-margin {
+	margin: 80px 100px;
+}
+.page-margin2 {
+	margin: 50px 200px;
+}
+div.ys {
+	margin: 10px 0;
+}
+p.txt-right {
+	text-align: right;
 }
 
 /* img size */
@@ -81,12 +100,18 @@ nav li {
 .fl-right {
 	float: right;
 }
+.fl-left {
+	float: left;
+}
 
 /* responsive img */
 img {
 	width: 100%;
 	height: auto;
 	margin: 5px;
+}
+.img-500 {
+	max-width: 500px;
 }
 .img-350 {
 	max-width: 350px;
@@ -98,15 +123,15 @@ img {
 	max-width: 200px;
 }
 
-/* responsive youtube iframe */
-.video-container {
+/* responsive iframe */
+.video-container, .sketchfab {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
 	height: 0;
 	overflow: hidden;
 }
-.video-container iframe {
+.video-container iframe, .sketchfab iframe {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -126,6 +151,21 @@ img {
 /* video */
 video {
 	max-width: 550px;
-	width: 100%;
+	width: 100%;	
+}
+video.zoo {
 	border: 6px inset #dedede;
+}
+
+/* when different screen size */
+@media (max-width: 1000px) {
+	.page-margin, .page-margin2 {
+		margin: 40px 50px;
+	}
+}
+
+@media (max-width: 500px) {
+	.page-margin, .page-margin2 {
+		margin: 20px 0px;
+	}
 }
