@@ -103,6 +103,11 @@ p.txt-right {
 .fl-left {
 	float: left;
 }
+.ys-firstimg {
+	max-width: 630px;
+	float: left;
+	padding: 0 15px;
+}
 
 /* responsive img */
 img {
@@ -165,6 +170,13 @@ video.zoo {
 }
 
 @media (max-width: 500px) {
+	h1 {
+		padding: 10px 0 20px 0;
+	}
+	.big-icon {
+		font-size: 100px;
+		padding: 20px 0;
+	}
 	.page-margin, .page-margin2 {
 		margin: 20px 0px;
 	}
