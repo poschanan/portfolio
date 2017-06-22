@@ -50,6 +50,9 @@ header a {
 a.blue {
 	color: dodgerblue;
 }
+a.btn {
+	margin: 5px;
+}
 
 /* navigation */
 nav li {
