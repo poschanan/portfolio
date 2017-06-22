@@ -47,6 +47,9 @@ a:hover, a:active, a:visited, a:focus {
 header a {
 	margin: 0 15px;
 }
+a.blue {
+	color: dodgerblue;
+}
 
 /* navigation */
 nav li {
